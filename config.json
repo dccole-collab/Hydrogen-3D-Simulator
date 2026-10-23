@@ -1,0 +1,42 @@
+{
+    "simulation_parameters": {
+      "rng_seed": 10006,
+      "toggles": {
+        "enable_coulomb_rr": true,
+        "enable_zpp_rr": false,
+        "enable_magnetic_lorentz": true,
+        "enable_zp": true
+      }
+    },
+    "initial_conditions": {
+      "a_start": 0.53e-8
+    },
+    "vacuum_parameters": {
+      "num_frequency_bins": 10000000,
+      "domain_min_angstroms": 0.02,
+      "domain_max_angstroms": 25.0,
+      "window_width_percent": 0.05,
+      "taper_width_percent": 0.20
+    },
+    "integration_parameters": {
+      "t_max": 50e-12,
+      "dt_initial": 5.0e-19,
+      "dt_max": 1.0e-17,
+      "dt_min": 1.0e-22,
+      "tolerance": 1.0e-14,
+      "tracker_stride": 200
+    },
+    "applied_fields": [
+        {
+          "enabled": false,
+          "type": "linear",
+          "amplitude": 5.0e4,
+          "frequency": 1.55e16,
+          "phase": 0.0,
+          "rotation_direction": 1
+        }
+      ],
+    "output_configuration": {
+      "printInterval": 250
+    }
+}
