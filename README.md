@@ -1,0 +1,1 @@
+The C++ code, congig.json file, Python scripts for postprocessing, plus the article about this software, and a more extensive README file are all contained here.  This is for a 3D classical hydrogen SED simulation.  See the enclosed article for complete information.
