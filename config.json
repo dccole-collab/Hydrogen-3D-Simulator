@@ -16,7 +16,7 @@
       "domain_min_angstroms": 0.02,
       "domain_max_angstroms": 25.0,
       "window_width_percent": 0.05,
-      "taper_width_percent": 0.20
+      "taper_width_percent": 0.005
     },
     "integration_parameters": {
       "t_max": 50e-12,
