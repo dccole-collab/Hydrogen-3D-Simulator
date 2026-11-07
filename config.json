@@ -14,7 +14,7 @@
     "vacuum_parameters": {
       "num_frequency_bins": 10000000,
       "domain_min_angstroms": 0.02,
-      "domain_max_angstroms": 25.0,
+      "domain_max_angstroms": 30.0,
       "window_width_percent": 0.05,
       "taper_width_percent": 0.005
     },
