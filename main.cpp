@@ -460,10 +460,7 @@ int main(int argc, char* argv[]) {
     
     std::cout << "Saving trajectory to: " << trajPath << std::endl;
     
-    std::string run_id = "000";
-    std::string data_dir = "/Users/Dan/Simulations/Computer program 3D/SED_Simulation_Laboratory/data/";
-    std::string traj_filename = data_dir + "Trajectory-" + run_id + ".bin";
-    std::string hist_filename = data_dir + "Histogram-" + run_id + ".csv";
+
     
     // ---------------------------------------------------------
     // THE BRIDGE: Reading config.json into the physics engine
