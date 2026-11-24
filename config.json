@@ -21,9 +21,9 @@
     "integration_parameters": {
       "t_max": 50e-12,
       "dt_initial": 5.0e-19,
-      "dt_max": 1.0e-17,
+      "dt_max": 5.0e-19,
       "dt_min": 1.0e-22,
-      "tolerance": 1.0e-14,
+      "tolerance": 1.0e-15,
       "tracker_stride": 200
     },
     "applied_fields": [
