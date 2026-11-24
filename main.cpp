@@ -734,7 +734,7 @@ int main(int argc, char* argv[]) {
         }
     }
     
-    std::cout << "\nExporting P(r) data to " << hist_filename << "..." << std::endl;
+    std::cout << "\nExporting P(r) data to " << histPath << "..." << std::endl;
     std::ofstream csv_outfile(histPath);
     csv_outfile << "r_angstroms,counts\n";
     for (int i = 0; i < num_bins; ++i) {
